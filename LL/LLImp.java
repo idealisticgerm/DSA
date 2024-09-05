@@ -3,6 +3,9 @@ package LL;
 public class LLImp {
 
     Node head;
+    public Node rethead(){
+        return head;
+    }
 
 //    Insert at end
     public void insertAtend(int data){
@@ -63,7 +66,7 @@ public class LLImp {
 //        System.out.println(p.data);
     }
 
-    public void display(){
+    public void display(Node head){
         Node temp = head;
         if(head == null){
             System.out.println("LL is empty !");

@@ -35,7 +35,8 @@ public class Main {
 
                 case 3:
                     System.out.println("Elements are: ");
-                    ll.display();
+                    Node head = ll.rethead();
+                    ll.display(head);
                     System.out.println();
                     System.out.println("---------------------------------");
                     break;
